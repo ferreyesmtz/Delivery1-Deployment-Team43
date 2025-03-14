@@ -11,9 +11,11 @@
     <name>hello-world</name>
     <description>Simple Java Hello World App with Spring Boot</description>
 
+    <!-- Sección fusionada de <properties> -->
     <properties>
         <java.version>17</java.version>
         <spring-boot.version>3.2.0</spring-boot.version>
+        <docker.image>tu-dockerhub-usuario/hello-world</docker.image>
     </properties>
 
     <dependencies>
@@ -77,8 +79,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <properties>
-        <docker.image>tu-dockerhub-usuario/java-hello-world</docker.image>
-    </properties>
 </project>
